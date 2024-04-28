@@ -19,7 +19,7 @@ h3 {
     text-align: center;
 }
 
-p {
+p, ul, li {
     color: rgb(255, 255, 255); /* Color del texto */
     font-size: 20px; /* Tamaño de la fuente */
     font-family: "verdana"; /* Fuente del texto */
@@ -104,4 +104,16 @@ footer {
 
 footer iframe {
     float: right; /* Alinea el iframe a la derecha */
+}
+
+ul {
+    list-style-type: none; /* Elimina los marcadores de lista */
+    padding: 0; /* Elimina el relleno */
+    margin: 0; /* Elimina los márgenes */
+}
+
+/* Estilos para los elementos de lista (li) */
+ul li {
+    text-align: left; /* Alinea el texto al centro */
+    margin-bottom: 15px; /* Espacio entre los elementos de la lista */
 }
