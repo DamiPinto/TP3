@@ -29,7 +29,7 @@ p {
 .chocolate-item {
     display: inline-block; /* Mostrar los elementos en línea */
     width: calc(30%); /* Establecer el ancho deseado, ajusta según sea necesario */
-    margin: 25px; /* Agregar espacio entre los elementos */
+    margin: 20px; /* Agregar espacio entre los elementos */
     text-align: center; /* Alinear el contenido al centro */
     vertical-align: top; /* Alinear los elementos en la parte superior */
     box-sizing: border-box; /* Incluir el padding y border en el ancho */
@@ -82,21 +82,20 @@ nav ul li a {
 
 /* Estilo para el elemento main */
 main {
-    padding: 20px; /* Espaciado interior */
+    margin-bottom: 40px;
+    padding: 40px; /* Espaciado interior */
     background-color: #a01b1b; /* Color de fondo */
 }
-main img {
-    width: 80%;
-    height: 50%;
-}
+
 
 
 /* Estilo para el elemento footer */
 footer {
-    position: fixed; /* Fija el footer en la posición deseada */
-    bottom: 0; /* Lo sitúa en la parte inferior de la ventana */
+    position: static; /* Ajusta el posicionamiento según sea necesario */
+    bottom: 0; /* Lo sitúa en la parte inferior de su contenedor */
     left: 0; /* Lo alinea a la izquierda */
     width: 97%; /* Ocupa todo el ancho */
+    height: 200px; /* Ajusta la altura según sea necesario */
     background-color: #333; /* Color de fondo */
     color: #ffffff; /* Color del texto */
     padding: 20px; /* Espaciado interior */
@@ -104,6 +103,5 @@ footer {
 }
 
 footer iframe {
-    float: right; /* Alinea el iframe a la derecha*/
-    
+    float: right; /* Alinea el iframe a la derecha */
 }
