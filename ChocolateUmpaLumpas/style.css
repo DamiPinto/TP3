@@ -1,0 +1,65 @@
+/* Estilo para los encabezados <h1> */
+h1 {
+    color: rgb(255, 255, 255); /* Color del texto */
+    font-size: 4em; /* Tamaño de la fuente */
+    font-family: "Bebas Neue", Impact, sans-serif; /* Fuente del texto */
+    -webkit-text-stroke: 2px rgb(0, 0, 0); /* Borde alrededor del texto para navegadores WebKit */
+    margin: 0; /* Elimina los márgenes por defecto */
+}
+
+/* Estilo para todo el cuerpo del documento */
+body {
+    font-family: sans-serif, Verdana, Tahoma, sans-serif; /* Fuente del texto */
+    background-color: #f4dba0; /* Color de fondo */
+    margin: 0; /* Elimina los márgenes por defecto */
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: hwb(0 0% 64% / 0.774); /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    border-bottom: 10px solid black; /* Borde sólido en la parte inferior */
+}
+
+/* Estilo para la lista de navegación */
+nav ul {
+    list-style-type: none; /* Elimina los marcadores de lista */
+    padding: 0; /* Elimina el relleno */
+    margin: 0; /* Elimina los márgenes */
+    background-color: #333; /* Color de fondo */
+    text-align: center; /* Alineación del texto */
+}
+
+/* Estilo para cada elemento de la lista de navegación */
+nav ul li {
+    display: inline-block; /* Muestra los elementos de lista en línea */
+}
+
+/* Estilo para los enlaces de la lista de navegación */
+nav ul li a {    
+    display: block; /* Convierte los enlaces en bloques */
+    padding: 20px; /* Espaciado interno */
+    text-decoration: none; /* Elimina la subrayado predeterminado de los enlaces */
+    color: rgb(255, 255, 255); /* Color del texto */
+    font-size: 1.5em; /* Tamaño de la fuente */
+}
+
+/* Estilo para el elemento main */
+main {
+    padding: 20px; /* Espaciado interior */
+    background-color: #a01b1b; /* Color de fondo */
+}
+
+/* Estilo para el elemento footer */
+footer {
+    position: fixed; /* Fija el footer en la posición deseada */
+    bottom: 0; /* Lo sitúa en la parte inferior de la ventana */
+    left: 0; /* Lo alinea a la izquierda */
+    width: 100%; /* Ocupa todo el ancho */
+    background-color: #333; /* Color de fondo */
+    color: #ffffff; /* Color del texto */
+    padding: 20px; /* Espaciado interior */
+    text-align: center; /* Alineación del texto */
+}
