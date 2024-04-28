@@ -1,26 +1,55 @@
 /* Estilo para los encabezados <h1> */
-h1 {
+h1, h2 {
     color: rgb(255, 255, 255); /* Color del texto */
-    font-size: 4em; /* Tamaño de la fuente */
+    font-size: 100px; /* Tamaño de la fuente */
     font-family: "Bebas Neue", Impact, sans-serif; /* Fuente del texto */
     -webkit-text-stroke: 2px rgb(0, 0, 0); /* Borde alrededor del texto para navegadores WebKit */
     margin: 0; /* Elimina los márgenes por defecto */
 }
 
+h3 {
+    color: rgb(255, 255, 255); /* Color del texto */
+    font-size: 20px; /* Tamaño de la fuente */
+    font-family:Verdana, Geneva, Tahoma, sans-serif; /* Fuente del texto */
+    text-align: center;
+}
+
+p {
+    color: rgb(255, 255, 255); /* Color del texto */
+    font-size: 20px; /* Tamaño de la fuente */
+    font-family: "verdana"; /* Fuente del texto */
+    text-align: center;
+}
+
+.chocolate-item {
+    display: inline-block; /* Mostrar los elementos en línea */
+    width: calc(30%); /* Establecer el ancho deseado, ajusta según sea necesario */
+    margin: 25px; /* Agregar espacio entre los elementos */
+    text-align: center; /* Alinear el contenido al centro */
+    vertical-align: top; /* Alinear los elementos en la parte superior */
+    box-sizing: border-box; /* Incluir el padding y border en el ancho */
+}
+
+/* Ajustes para imágenes dentro de los elementos de chocolate */
+.chocolate-item img {
+    max-width: 100%; /* Asegurarse de que la imagen no exceda el ancho del contenedor */
+    height: auto; /* Mantener la proporción de aspecto de la imagen */
+}
+
 /* Estilo para todo el cuerpo del documento */
 body {
     font-family: sans-serif, Verdana, Tahoma, sans-serif; /* Fuente del texto */
-    background-color: #f4dba0; /* Color de fondo */
+    background-color: #ffffff; /* Color de fondo */
     margin: 0; /* Elimina los márgenes por defecto */
 }
 
 /* Estilo para el encabezado */
 header {
-    background-color: hwb(0 0% 64% / 0.774); /* Color de fondo */
+    background-color: hwb(0 0% 13% / 0.838); /* Color de fondo */
     color: white; /* Color del texto */
-    padding: 20px; /* Espaciado interno */
+    padding: 20px; /* Reducir el espaciado interno */
     text-align: center; /* Alineación del texto */
-    border-bottom: 10px solid black; /* Borde sólido en la parte inferior */
+    border-bottom: 5px solid black; /* Reducir el tamaño del borde */
 }
 
 /* Estilo para la lista de navegación */
@@ -51,6 +80,11 @@ main {
     padding: 20px; /* Espaciado interior */
     background-color: #a01b1b; /* Color de fondo */
 }
+main img {
+    width: 80%;
+    height: 50%;
+}
+
 
 /* Estilo para el elemento footer */
 footer {
