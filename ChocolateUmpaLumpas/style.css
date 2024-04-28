@@ -1,4 +1,9 @@
-/* Estilo para los encabezados <h1> */
+* {
+    margin: 10px; /* Ajusta el valor según sea necesario */
+}
+
+
+/* Estilo para los encabezados <h1> y <h2> */
 h1, h2 {
     color: rgb(255, 255, 255); /* Color del texto */
     font-size: 100px; /* Tamaño de la fuente */
@@ -91,9 +96,14 @@ footer {
     position: fixed; /* Fija el footer en la posición deseada */
     bottom: 0; /* Lo sitúa en la parte inferior de la ventana */
     left: 0; /* Lo alinea a la izquierda */
-    width: 100%; /* Ocupa todo el ancho */
+    width: 97%; /* Ocupa todo el ancho */
     background-color: #333; /* Color de fondo */
     color: #ffffff; /* Color del texto */
     padding: 20px; /* Espaciado interior */
     text-align: center; /* Alineación del texto */
+}
+
+footer iframe {
+    float: right; /* Alinea el iframe a la derecha*/
+    
 }
