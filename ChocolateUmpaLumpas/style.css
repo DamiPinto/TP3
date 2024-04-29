@@ -6,8 +6,9 @@
 /* Estilo para los encabezados <h1> y <h2> */
 h1, h2 {
     color: rgb(255, 255, 255); /* Color del texto */
-    font-size: 100px; /* Tamaño de la fuente */
+    font-size: 120px; /* Tamaño de la fuente */
     font-family: "Bebas Neue", Impact, sans-serif; /* Fuente del texto */
+    text-align: center; /* Alineación del texto */
     -webkit-text-stroke: 2px rgb(0, 0, 0); /* Borde alrededor del texto para navegadores WebKit */
     margin: 0; /* Elimina los márgenes por defecto */
 }
@@ -55,6 +56,18 @@ header {
     padding: 20px; /* Reducir el espaciado interno */
     text-align: center; /* Alineación del texto */
     border-bottom: 5px solid black; /* Reducir el tamaño del borde */
+    display: flex; /* Usar flexbox para controlar la disposición de los elementos */
+    align-items: center; /* Alinear verticalmente los elementos */
+}
+
+/* Estilo para el contenedor del logo */
+.logo-container {
+    margin-right: 150px; /* Agregar un margen a la derecha para separar del texto */
+}
+
+/* Estilo para el logo */
+.logo-container img {
+    height: 300px; /* Ajustar la altura según sea necesario */
 }
 
 /* Estilo para la lista de navegación */
