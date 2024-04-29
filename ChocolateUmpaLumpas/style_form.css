@@ -1,0 +1,54 @@
+/* Estilo para el formulario */
+form {
+    font-size: 20px; /* Tamaño de la fuente */
+    width: 50%; /* Ancho del formulario */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+    background-color: #f9f9f9; /* Color de fondo */
+    padding: 30px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Estilo para las etiquetas */
+label {
+    display: block; /* Muestra las etiquetas en una nueva línea */
+    margin-bottom: 5px; /* Espacio entre las etiquetas */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilo para los campos de entrada */
+input[type="text"],
+input[type="email"],
+textarea {
+    font-size: 25px;
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 0px; /* Espacio entre los campos */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluye el padding y border en el ancho */
+}
+
+input[type="mensaje"],
+textarea {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+}
+
+/* Estilo para el botón de enviar */
+button[type="submit"] {
+    background-color: #a01b1b; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 30px 50px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor al pasar */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+/* Cambio de color al pasar el cursor sobre el botón */
+button[type="submit"]:hover {
+    background-color: #820303; /* Color de fondo al pasar el cursor */
+}
+
+
